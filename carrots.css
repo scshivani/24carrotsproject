@@ -1,0 +1,422 @@
+*{
+	box-sizing: border-box;
+}
+
+.topnav{
+	overflow:hidden;
+	padding:30px 30px;
+}
+
+.topnav a{
+	float:left;
+	display:block;
+	color:black;
+	text-align: center;
+	padding:14px 35px;
+	text-decoration: none;
+	font-size:12px;
+	letter-spacing: 2px;
+
+}
+.topnav a:hover{
+	color:brown;
+}
+.menu-bar ul li:hover{
+	color:brown;
+}
+ul li{
+	list-style-type: none;
+	color:black;
+}
+.logo{
+	line-height: 1;
+}
+.getTouch {
+	border:1px solid ; 
+	background-color: #800000; 
+	color:white; 
+	border-radius: 20px;
+	 padding:10px;
+	 text-decoration: none;
+	 margin:auto;
+	 font-size: 12px;
+}
+.getTouch:hover{
+	background-color: red;
+	color:white;
+}
+
+.sub-menu-1{
+	display:none;
+
+
+}
+.menu-bar ul li:hover .sub-menu-1{
+	display:block;
+    position:absolute;
+	margin-top:40px;
+	margin-left:-32px;
+	line-height:0.01;
+	
+	
+}
+.sub-menu-2{
+	display:none;
+
+
+}
+.menu-bar ul li:hover .sub-menu-2{
+	display:block;
+    position:absolute;
+	margin-top:40px;
+	margin-left:85px;
+	line-height:0.01;
+	
+	
+}
+.sub-menu-3{
+	display:none;
+
+
+}
+.menu-bar ul li:hover .sub-menu-3{
+	display:block;
+    position:absolute;
+	margin-top:40px;
+	margin-left:220px;
+	line-height:0.01;
+	
+	
+}
+
+.videoi{
+	position:relative;
+	
+	
+}
+#overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: "";
+  color:#fff;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  font-weight: 900;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.flex-item-left {
+  color:#3b8132;
+  flex: 50%;
+  line-height: 2;
+  padding:40px;
+  font-size: 17px;
+  font-weight:20;
+}
+
+
+.flex-item-right {
+ 
+  flex: 50%;
+}
+
+
+.flex-cont {
+  display: flex;
+ 
+
+}
+
+.flex-left {
+	font-family: Georgia;
+  color:#3b8132;
+  flex: 50%;
+  line-height: 2.5;
+  font-size: 35px;
+  font-weight:20;
+  margin-left:-40px;
+}
+
+
+.flex-right {
+   flex: 50%;
+   color:#3b8132;
+   font-size: 18px;
+   margin-left:-150px;
+
+}
+ p{
+ 	color:#3b8132;
+    text-align: left;
+  text-justify: inter-word;
+  font-family:'Courier New', monospace;
+  line-height: 2;
+}
+.img{
+	position:relative;
+	width:100%;
+
+}
+
+
+.semi-circle {
+	position:absolute;
+  width: 32rem;
+  height: 16rem;
+  margin-top: -250px;
+  margin-left: 390px;
+  background-color: white;
+  border-radius: 120rem 120rem 0 0;
+  color:#3b8132;
+
+}
+
+.container-fluid1 .blue-row1 {
+    border:1px solid black;
+    border-radius: 15px;
+    width: 200px;
+    margin:auto;
+    background-color: #E62020; 
+
+}
+
+.container-fluid1 .blue-row1 h3 {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: center;
+    padding: 5px;
+  
+}
+.container-fluid1 .blue-row1:hover {
+	background-color: red;
+}
+
+.container-fluid1 .blue-row1 h3 span {
+    margin-left: 5%;
+    transition: 1s;
+}
+
+.container-fluid1 .blue-row1:hover > h3 span {
+    margin-left: 10%;
+
+}
+.conteudo{
+	width:100%;
+}
+.carrousel{
+	display:grid;
+  grid-auto-flow:column;
+	gap:10px;
+	overflow-y:auto;
+	overscroll-behavior-x: contain;
+	scroll-snap-type: x-mandatory;
+	scrollbar-width: none;
+
+}
+.carrousel::-webkit-scrollbar{
+	display:none;
+}
+
+.card{
+	display:flex;
+	width:550px;
+	scroll-snap-align: start;
+	align-items: center;
+	justify-content: center;
+	margin-left:50px;
+	
+}
+.overlay{
+	display:none;
+}
+.card:hover .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left:0;
+  background-color:rgba(255,0,0,0.3);
+  color:#fff;
+  display:block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 100px;
+  font-weight: 900;
+
+}
+.container-fluid .blue-row {
+    border:1px solid white;
+    border-radius: 15px;
+    width: 200px;
+    margin-top: 180px;
+    margin-left: 150px;
+
+}
+
+.container-fluid .blue-row h3 {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: center;
+    padding: 5px;
+  
+}
+
+.container-fluid .blue-row h3 span {
+    margin-left: 5%;
+    transition: 1s;
+}
+
+.container-fluid .blue-row:hover > h3 span {
+    margin-left: 10%;
+}
+.last{
+   margin:10px;
+   text-align: left;
+   line-height: 0.1px;
+
+}
+.box{
+	background-color: #EFFDEE;
+	position:relative;
+	padding:140px;
+	height:1000px;
+}
+.box h1{
+	padding: 30px;
+	text-align: center;
+	font-family: Georgia;
+  color:#013220;
+  font-size: 100px;
+}
+.videoiv{
+	
+	margin-left:120px;
+	top:-1550px;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin:50px;
+
+}
+
+.one{
+	flex:33.33%;
+	margin-top: 50px;
+
+}
+.two{
+	flex:33.33%;
+}
+.three{
+	flex:33.33%;
+	margin-top: 50px;
+	
+}
+.box1{
+	margin:30px;
+
+}
+.box1 h1{
+	font-size: 30px;
+	font-weight: lighter;	font-family: Georgia;
+}
+.box1 p{
+	font-size :15px;
+}
+
+.container-fluid2 .blue-row2 {
+    border:1px solid #DD571C;
+    border-radius: 15px;
+    width: 200px;
+    margin:0;
+    background-color: "";
+    justify-content: left; 
+
+}
+
+.container-fluid2 .blue-row2 h3 {
+    color: #DD571C;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: center;
+    padding: 5px;
+  
+}
+.container-fluid2 .blue-row2:hover {
+	background-color: "";
+}
+
+.container-fluid2 .blue-row2 h3 span {
+    margin-left: 5%;
+    transition: 1s;
+}
+
+.container-fluid2 .blue-row2:hover > h3 span {
+    margin-left: 10%;
+
+}
+.big-container{
+	width:1300px;
+	height:850px;
+	background-color:#144525;
+
+}
+.big-container h1{
+	
+	font-size:60px;
+	color:white;
+	font-weight: lighter;
+	text-align:center;
+	padding:20px;
+	font-family: Georgia;
+
+
+}
+.big-container p{
+	
+	font-size:20px;
+	color:white;
+	margin-left: 50px;
+	margin-right:50px;
+  justify-content: center;
+	font-weight: lighter;
+	text-align:center;
+	
+
+
+}
+.flex-container1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item-left1 {
+  flex: 50%;
+}
+
+.flex-item-right1 {
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
